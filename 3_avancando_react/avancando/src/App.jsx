@@ -15,7 +15,22 @@ import PainelDevs from './components/PainelDevs'
 
 // 6 - renderização condiconal
 import PainelSistema from './components/PainelSistema'
+
+// 7 - props
 import CardUsers from './components/CardUsers'
+
+// 8 - renderização de listas com componentes
+import ListaCarros from './components/ListaCarros'
+
+// 9 - fragment
+import Fragment from './components/Fragment'
+
+// 10 - children
+import Container from './components/Container'
+
+// 11 - funcão em prop
+import PainelAdmin from './components/PainelAdmin'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -38,8 +53,27 @@ function App() {
 
     {/* 7 - props */}
      <h2>Lista de funcionarios</h2>
-     <CardUsers name="Vinicios" profissao="Backend" />
-     <CardUsers name="Vini" profissao="Dev" />
+     <CardUsers name="Vinicios" profissao="Backend" age={19} />
+     <CardUsers name="Vini" profissao="Dev" age={20} />
+
+    {/* 8 - renderização de listas com componentes  */}
+     <ListaCarros />
+
+     {/* 9 - fragment */}
+     <Fragment />
+
+     {/* 10 - children */}
+     <Container>
+      <h2>Aviso importante!</h2>
+      <p>Servidor em manutenção às 22h!</p>
+     </Container>
+
+     <Container>
+      <button>Usando o memo container</button>
+     </Container>
+
+     {/* 11 - funçao em prop */}
+     <PainelAdmin />
     </>
   )
 }
