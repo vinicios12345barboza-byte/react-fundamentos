@@ -10,7 +10,7 @@ function App() {
     <>
       <h1>Form em React</h1>
 
-      <FormularioCadastro />
+      <FormularioCadastro userName= "Vinicios" userEmail="vinicios@gmail.com"/>
     </>
   )
 }
