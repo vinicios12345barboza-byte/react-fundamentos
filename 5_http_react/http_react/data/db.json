@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "name": "Mouse",
+      "price": "120",
+      "id": "5"
+    },
+    {
+      "name": "Teclado",
+      "price": "240",
+      "id": "6"
+    },
+    {
+      "name": "Cadeira",
+      "price": "350",
+      "id": "7"
+    },
+    {
+      "name": "porra",
+      "price": "23",
+      "id": "aGg-t_1j4A8"
+    },
+    {
+      "name": "porra",
+      "price": "23",
+      "id": "S_aWDJOP84o"
+    },
+    {
+      "name": "porra",
+      "price": "23",
+      "id": "vzU7mtsfyng"
+    },
+    {
+      "name": "porra",
+      "price": "23",
+      "id": "tHP3o1_-kmo"
+    },
+    {
+      "name": "porra",
+      "price": "23",
+      "id": "HKnEg3M6l3Y"
+    },
+    {
+      "name": "pqp",
+      "price": "4.50",
+      "id": "Fhl3loxpyt4"
+    },
+    {
+      "name": "pqp",
+      "price": "4.50",
+      "id": "bAUrDqq85bY"
+    },
+    {
+      "name": "oi",
+      "price": "4",
+      "id": "9OD6tuXNE3Y"
+    },
+    {
+      "name": "testando carregamento",
+      "price": "54",
+      "id": "xh-IZp3gswU"
+    },
+    {
+      "name": "leon",
+      "price": "150",
+      "id": "WFGDJanTLqY"
+    },
+    {
+      "name": "hh",
+      "price": "43",
+      "id": "-U3zAoDaUyc"
+    },
+    {
+      "name": "uuu",
+      "price": "67",
+      "id": "tUWuBvh3eTY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
